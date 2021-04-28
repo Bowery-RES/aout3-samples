@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "ch1": "semistandard --fix ch1-basics && node ch1-basics/custom-test-phase1.js && node ch1-basics/custom-test-phase2.js && node ch1-basics/custom-test-phase3.js"
+    "ch1": "semistandard --fix ch1-basics && node ch1-basics/custom-test-phase1.js && node ch1-basics/custom-test-phase2.js && node ch1-basics/custom-test-phase3.js",
+    "ch2": "jest ch2-first-test/**/*.spec.js --watch"
   },
   "semistandard": {
     "env": [
